@@ -1,0 +1,19 @@
+{
+    "name": "netnaveed/php-debugger",
+    "description": "A simple PHP debugger",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Naveed Awan",
+            "email": "netnaveed@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "netnaveed\\debugger\\": "src/"
+        }
+    },
+    "require": {}
+}
