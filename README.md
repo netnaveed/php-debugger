@@ -1,15 +1,12 @@
-# Debugger
-A simple PHP debugger
+# PHP Debugger
+A simple PHP debugger for testing Composer.
 
 Installation
-------------
-
 ```bash
 composer require netnaveed/php-debugger
 ```
 
 Example
--------
 ```php
 <?php
 
@@ -25,8 +22,6 @@ console::log( [ 1,2,3 ] );
 ```
 
 Output in console
------------------
-
 ```bash
 A simple PHP debugger - test.php(6)
 [1,2,3] - test.php(9)
